@@ -1,5 +1,4 @@
 data "aws_ssm_parameter" "backend_sg_id" {
-  #/expense/dev/vpn_sg_id
   name = "/${var.project_name}/${var.environment}/backend_sg_id"
 }
 
